@@ -20,7 +20,7 @@ const path = require('path');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials'); 
-const path = require('path');
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
